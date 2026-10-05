@@ -2,6 +2,9 @@
 
 把 Sorftime 跨境卖家数据能力封装成 MCP Server，让 Claude / Cursor / 扣子 / 豆包等 AI 客户端直接调用数据工具。
 
+> 🔗 **数据购买 / 续费入口（渠道 Tag）**：https://open.sorftime.com/home?tag=NTIw
+> 新用户首月 39.9 元；MCP/API 按月订阅，额度用尽时工具会自动返回购买引导。
+
 ## 工具清单
 
 
