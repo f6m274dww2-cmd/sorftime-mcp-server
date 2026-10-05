@@ -1,0 +1,29 @@
+{
+  "name": "io.sorftime/sorftime-data",
+  "description": "Sorftime 跨境卖家数据服务：类目趋势、关键词热度、竞品监控、市场排行与利润测算，供 AI 选品与运营决策使用。",
+  "version": "0.1.0",
+  "transport": "streamable-http",
+  "endpoint": "https://mcp.sorftime.com/mcp",
+  "tools": [
+    {
+      "name": "get_category_trend",
+      "description": "查询指定类目在某市场的销量、销售额、均价、新品占比与趋势指数。"
+    },
+    {
+      "name": "get_keyword_heat",
+      "description": "查询关键词的搜索量、搜索趋势、竞品数、广告竞争度与建议出价。"
+    },
+    {
+      "name": "get_competitor_overview",
+      "description": "查询竞品 ASIN 的排名、预估销量、销售额、价格波动与 Review 增长。"
+    },
+    {
+      "name": "get_market_rank",
+      "description": "查询类目热销商品排行，支持按销量、销售额或增速排序。"
+    },
+    {
+      "name": "calc_profit",
+      "description": "跨境单件利润测算（本地计算）：售价、成本、费率、退货率，输出净利与保本售价。"
+    }
+  ]
+}
