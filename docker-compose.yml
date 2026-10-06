@@ -1,0 +1,12 @@
+services:
+  sorftime-mcp:
+    build: .
+    image: sorftime-mcp:latest
+    container_name: sorftime-mcp
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - SORFTIME_API_KEY=${SORFTIME_API_KEY:?请在 .env 中配置 SORFTIME_API_KEY}
+      - SORFTIME_API_BASE=${SORFTIME_API_BASE:-https://api.sorftime.com/v1}
+      - SORFTIME_PURCHASE_URL=${SORFTIME_PURCHASE_URL:-https://open.sorftime.com/home?tag=NTIw}
