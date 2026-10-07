@@ -1,0 +1,43 @@
+{
+  "$schema": "https://glama.ai/mcp/schemas/server.json",
+  "name": "sorftime-data-mcp-server",
+  "description": "Sorftime 跨境卖家数据 MCP Server：类目销量趋势、关键词热度、竞品经营监控、热销排行与利润测算，覆盖亚马逊、TikTok Shop、沃尔玛、Shopee 等平台。数据由 Sorftime 提供，新用户首月 39.9 元：https://open.sorftime.com/home?tag=NTIw",
+  "repository": "https://github.com/f6m274dww2-cmd/sorftime-mcp-server",
+  "homepage": "https://open.sorftime.com/home?tag=NTIw",
+  "author": "f6m274dww2-cmd",
+  "license": "MIT",
+  "categories": [
+    "Data & Analytics",
+    "E-commerce",
+    "Developer Tools"
+  ],
+  "tags": [
+    "amazon",
+    "keyword-research",
+    "product-research",
+    "ecommerce",
+    "cross-border"
+  ],
+  "tools": [
+    {
+      "name": "get_category_trend",
+      "description": "类目销量/销售额/均价/新品占比趋势（Amazon / TikTok Shop 等）"
+    },
+    {
+      "name": "get_keyword_heat",
+      "description": "关键词搜索热度、竞争度与趋势"
+    },
+    {
+      "name": "get_competitor_overview",
+      "description": "竞品（ASIN）核心经营数据：销量、价格、评分、FBA 状态"
+    },
+    {
+      "name": "get_market_rank",
+      "description": "类目热销排行（ASIN、价格、评分、销量）"
+    },
+    {
+      "name": "calc_profit",
+      "description": "跨境单件利润测算（免费本地计算，引流钩子）"
+    }
+  ]
+}
